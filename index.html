@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>此处自行修改</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="此处自行修改">
+    <meta name="keywords" content="此处自行修改">
+	<script type="text/javascript">
+	    var wapPageUrl = '';
+	    // 以下为页面跳转方法，请勿修改
+	    (function(){var isMobile=function(){var userAgent=navigator.userAgent;if(/Android|iPhone|iPad|BlackBerry|SymbianOS|IEMobile|WebOS|Google\s+Wireless\s+Transcoder/i.test(userAgent)){return true}return false};if(isMobile()&&wapPageUrl.replace(/\s+/g,"").length>0&&window.location.href.indexOf("?wap")<0){window.location.href=wapPageUrl}})();
+    </script>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        html{overflow-x:hidden;}
+        /*重置系统css*/
+        .head-img-wrapper .headBanner img{width: auto;display: block;position: static;left: auto;margin-left: auto;} 
+        .head-img-wrapper .headBanner{width: 1920px;position: relative;left: 50%;margin-left: -960px;top: 0;overflow: hidden;}
+        .head-img-wrapper .headBanner .lantern{
+            position: absolute;z-index: 10;top: 0px;left: 1336px;
+            -webkit-animation: yaobai 2s ease-in-out alternate infinite;
+            -moz-animation: yaobai 2s ease-in-out alternate infinite;
+            -ms-animation: yaobai 2s ease-in-out alternate infinite;
+            animation: yaobai 2s ease-in-out alternate infinite;
+        }
+        @-webkit-keyframes yaobai{
+            from{-webkit-transform-origin: 20% 0;}
+            to{-webkit-transform: rotate(-10deg);-webkit-transform-origin: 20% 0;}
+        }
+        @-moz-keyframes yaobai{
+            from{-moz-transform-origin: 20% 0;}
+            to{-moz-transform: rotate(-10deg);-moz-transform-origin: 20% 0;}
+        }
+        @-ms-keyframes yaobai{
+            from{-ms-transform-origin: 20% 0;}
+            to{-ms-transform: rotate(-10deg);-ms-transform-origin: 20% 0;}
+        }
+        @keyframes yaobai{
+            from{transform-origin: 20% 0;}
+            to{transform: rotate(-10deg);transform-origin: 20% 0;}
+        }
+        /*头图模块样式*/
+        .head-img-wrapper .headBanner .box {
+            position: absolute;
+            z-index: 99;
+            top: 0;
+            left: 0;
+            width: 1920px;
+            height: 600px;
+        }
+        .head-img-wrapper .headBanner .box .ball {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+        }
+        .head-img-wrapper .headBanner .box .ball .bubble {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            background: radial-gradient(circle at 50% 55%,rgba(240,245,255,.4),rgba(240,245,255,.3) 40%,rgba(225,238,255,.2) 60%,rgba(43,130,255,.1) 100%);
+            text-align: center;
+            font-family: '宋体',"微软雅黑";
+            font-size: 100px;
+            line-height: 150px;
+            font-weight: bold;
+            color: #f00;
+        }
+        .head-img-wrapper .headBanner .box .ball .bubble:before {
+            position: absolute;
+            z-index: 2;
+            content: "";
+            top: 1%;
+            left: 5%;
+            width: 40%;
+            height: 80%;
+            border-radius: 100%;
+            background: radial-gradient(circle at 130% 130%,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,0) 46%,hsla(0,0%,100%,.8) 50%,hsla(0,0%,100%,.8) 58%,hsla(0,0%,100%,0) 60%,hsla(0,0%,100%,0) 100%);
+            -webkit-transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg);
+            transform: translateX(131%) translateY(58%) rotateZ(168deg) rotateX(10deg);
+            -webkit-filter: blur(0px);
+            filter: blur(0px);
+        }
+        .head-img-wrapper .headBanner .box .ball .bubble:after {
+            position: absolute;
+            z-index: 2;
+            border-radius: 100%;
+            content: "";
+            top: 5%;
+            left: 10%;
+            width: 80%;
+            height: 80%;
+            background: radial-gradient(circle at 50% 80%,hsla(0,0%,100%,0),hsla(0,0%,100%,0) 74%,#fff 80%,#fff 84%,hsla(0,0%,100%,0) 100%);
+            -webkit-transform: rotateZ(-30deg);
+            transform: rotateZ(-30deg);
+            -webkit-filter: blur(1px);
+            filter: blur(1px);
+        }
+    </style>
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <div class="warp">
+        <div class="head-img-wrapper">
+	    <!-- start -->
+		    <div class="headBanner">
+		    	<img src="images/headPic/headBg.jpg" class=""/>
+		    	<img src="images/headPic/lantern.png" class="lantern"/>
+		    	<div class="box">
+		            <div class="ball ball-huan">
+		    		    <div class="bubble">欢</div>
+		            </div>
+		            <div class="ball ball-du">
+		    		    <div class="bubble">度</div>
+		            </div>
+		            <div class="ball ball-guo">
+		    		    <div class="bubble">国</div>
+		            </div>
+		            <div class="ball ball-qing">
+		    		    <div class="bubble">庆</div>
+		            </div>
+		        </div>
+		    </div>
+		    <script type="text/javascript">
+				qiu('.ball-huan');
+				qiu('.ball-du');
+				qiu('.ball-guo');
+				qiu('.ball-qing');
+				function qiu(a){
+					var box = $(".box"),
+		                ball = $(a),
+		                xLength = box.width() - ball.width(),
+			            yHeight = box.height() - ball.height(),
+			            coordsX= Math.floor(Math.random()*xLength),
+			            coordsY = Math.floor(Math.random()*yHeight),
+			            youYi = 1,
+			            xiaYi = 1;
+			        setInterval(function() {
+			            if (coordsX >= xLength) {
+                            youYi = 0;
+                        } else if(coordsX <= 0){
+                            youYi = 1;
+                        };
+			            if (youYi) {
+                            coordsX++;
+                        } else {
+                            coordsX--;
+                        };
+                        
+                        if (coordsY >= yHeight) {
+                            xiaYi = 0;
+                        } else if(coordsY <= 0){
+                            xiaYi = 1;
+                        };
+                        if (xiaYi) {
+                            coordsY++;
+                        } else{
+                            coordsY--;
+                        };
+		                
+		                ball.css({"left":coordsX,"top":coordsY})
+		            },10);
+				}
+		    </script>
+		    <!-- end -->
+        </div>
+    </div>
+</body>
+</html>
